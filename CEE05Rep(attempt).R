@@ -1,4 +1,5 @@
 # CEE05 VAR Replication 
+# Mardoqueo Arteaga, Fordham University
 CEE = read.csv("CEE05data.csv", header = TRUE)
 library(vars)
 library(aTSA)
