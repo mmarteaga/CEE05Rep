@@ -1,5 +1,5 @@
 # CEE05 VAR Replication 
-CEE = read.csv("CEE05data.csv", header = TRUE) # use the file I just sent you 
+CEE = read.csv("CEE05data.csv", header = TRUE)
 library(vars)
 library(aTSA)
 CEEDat = CEE[,-1]
